@@ -8,6 +8,7 @@ import { LandingComponent } from './landing/landing.component';
 import { NavComponent } from './nav/nav.component';
 import { ServicesComponent } from './services/services.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AboutComponent } from './about/about.component';
     LandingComponent,
     NavComponent,
     ServicesComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

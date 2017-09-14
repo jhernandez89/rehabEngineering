@@ -1,6 +1,6 @@
 .containerPadding {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .serviceImg {
@@ -30,7 +30,7 @@
 
 .servicesBackground:hover{
   transition: background-color 0.5s ease;
-  background-color: rgb(48, 57, 95);
+  background-color:   rgb(87, 93, 114);
 }
 
 .servicesBackground:hover .serviceDescription, .servicesBackground:hover h2{

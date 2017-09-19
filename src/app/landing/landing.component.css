@@ -3,7 +3,10 @@
   height: 75vh;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  /* background-position: center; */
+}
+.row {
+  padding: 0 15% 0 15%;
 }
 .tagLines {
   color: white;

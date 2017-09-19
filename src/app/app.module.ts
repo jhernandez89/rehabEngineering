@@ -18,11 +18,14 @@ import { FooterComponent } from './footer/footer.component';
 import { BodyadaptiveComponent } from './adaptive/bodyadaptive/bodyadaptive.component';
 import { TrainingComponent } from './training/training.component';
 import { BodyTrainingComponent } from './training/body-training/body-training.component';
+import { RampsComponent } from './ramps/ramps.component';
+import { BodyRampsComponent } from './ramps/body-ramps/body-ramps.component';
 
 const appRoutes: Routes = [
   { path: '', component: MainComponent },
   { path: 'adaptiveaid', component: AdaptiveComponent},
-  { path: 'training', component: TrainingComponent }
+  { path: 'training', component: TrainingComponent },
+  { path: 'ramps', component: RampsComponent }
 ]
 
 @NgModule({
@@ -39,7 +42,9 @@ const appRoutes: Routes = [
     FooterComponent,
     BodyadaptiveComponent,
     TrainingComponent,
-    BodyTrainingComponent
+    BodyTrainingComponent,
+    RampsComponent,
+    BodyRampsComponent
   ],
   imports: [
     BrowserModule,

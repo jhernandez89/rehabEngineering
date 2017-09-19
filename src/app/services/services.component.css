@@ -1,6 +1,8 @@
 .containerPadding {
   padding-top: 10%;
   padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .serviceImg {
@@ -12,6 +14,7 @@
 
 .serviceImg, h2 {
   margin-left: 5%;
+  margin-right:5%;
   color: rgb(30, 79, 162);
   font-family: 'Bevan', cursive;
   letter-spacing: 2px;
@@ -25,12 +28,13 @@
 
 .serviceDescription {
   margin-left: 5%;
+  margin-right: 5%;
   color: black;
 }
 
 .servicesBackground:hover{
   transition: background-color 0.5s ease;
-  background-color:   rgb(87, 93, 114);
+  background-color: rgb(48, 57, 95);
 }
 
 .servicesBackground:hover .serviceDescription, .servicesBackground:hover h2{

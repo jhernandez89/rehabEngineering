@@ -1,3 +1,24 @@
-.logo{
-  padding: 9%;
+.logo {
+  padding: 15px;
+}
+.containerBorder {
+  border-bottom: 1px solid black;
+  box-shadow: 0px 1px 2px #888888;
+  
+}
+a {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  cursor: pointer;
+  white-space:nowrap;
+  color: rgb(54, 83, 118)
+}
+.navi {
+  color: grey;
+}
+h5:hover {
+  color: rgb(255, 165, 84);
+  text-decoration: underline
 }

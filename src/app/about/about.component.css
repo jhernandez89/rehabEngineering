@@ -1,6 +1,6 @@
 .backgroundImage {
   background-image: url('../../assets/wheelchair.jpg');
-  min-height: 70vh;
+ min-height: 70vh; 
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -11,7 +11,9 @@
   background-color: rgb(41, 52, 89);
   -webkit-clip-path: polygon(0% 0%, 85% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(0% 0%, 85% 0%, 100% 100%, 0% 100%);
+  min-height: 70vh;
   height: 100%;
+
   width: 70%;
 }
 

@@ -16,6 +16,7 @@ import { AdaptiveComponent } from './adaptive/adaptive.component';
 import { AdaptivePictureComponent } from './adaptive/adaptive-picture/adaptive-picture.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyadaptiveComponent } from './adaptive/bodyadaptive/bodyadaptive.component';
+import { TrainingComponent } from './training/training.component';
 
 const appRoutes: Routes = [
   { path: '', component: MainComponent },
@@ -34,7 +35,8 @@ const appRoutes: Routes = [
     AdaptiveComponent,
     AdaptivePictureComponent,
     FooterComponent,
-    BodyadaptiveComponent
+    BodyadaptiveComponent,
+    TrainingComponent
   ],
   imports: [
     BrowserModule,

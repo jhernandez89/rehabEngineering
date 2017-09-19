@@ -1,4 +1,6 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-adaptive-picture',
@@ -6,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./adaptive-picture.component.css']
 })
 export class AdaptivePictureComponent implements OnInit {
-
-  constructor() { }
+  currentState = 'home';
+  constructor(private router: Router) { 
+    this.router.events.subscribe(navRouter => {this.currentState = navRouter['url']});
+  }
 
   ngOnInit() {
   }

@@ -20,12 +20,14 @@ import { TrainingComponent } from './training/training.component';
 import { BodyTrainingComponent } from './training/body-training/body-training.component';
 import { RampsComponent } from './ramps/ramps.component';
 import { BodyRampsComponent } from './ramps/body-ramps/body-ramps.component';
+import { PageContactComponent } from './page-contact/page-contact.component';
 
 const appRoutes: Routes = [
   { path: '', component: MainComponent },
   { path: 'adaptiveaid', component: AdaptiveComponent},
   { path: 'training', component: TrainingComponent },
-  { path: 'ramps', component: RampsComponent }
+  { path: 'ramps', component: RampsComponent },
+  { path: 'contact', component: PageContactComponent }
 ]
 
 @NgModule({
@@ -44,7 +46,8 @@ const appRoutes: Routes = [
     TrainingComponent,
     BodyTrainingComponent,
     RampsComponent,
-    BodyRampsComponent
+    BodyRampsComponent,
+    PageContactComponent
   ],
   imports: [
     BrowserModule,

@@ -5,27 +5,51 @@
   background-attachment: fixed;
   /* background-position: center; */
 }
+
 .row {
   padding: 0 15% 0 15%;
 }
+
 .tagLines {
   color: white;
   /* text-transform: uppercase; */
   font-family: 'Bevan', cursive;
   letter-spacing: 2px;
 }
-.and{
+
+.and {
   margin: 0 auto;
   height: 70px !important;
   width: auto;
   padding: 4%;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none;
 }
-.clippy{
+
+.clippy {
   background-color: rgba(30, 79, 162, 0.5);
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    /* -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 25% 100%);
+  /* -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 25% 100%);
   clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 25% 100%); */
   height: 100%;
   width: 60%;
+}
+
+h3 {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
 }

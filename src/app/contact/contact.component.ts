@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contact',
@@ -6,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-
-  constructor() { }
+  currentState = 'home';
+  constructor(private router: Router) {
+    this.router.events.subscribe(navRouter => {this.currentState = navRouter['url']});
+  }
 
   ngOnInit() {
   }

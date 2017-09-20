@@ -1,6 +1,7 @@
 .background {
   min-height: 70vh;
   padding: 10%;
+  background-color: rgb(240, 240, 240)
 }
 h1 {
   font-family: 'Bevan', cursive;
